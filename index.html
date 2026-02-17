@@ -220,6 +220,21 @@ section h2{
     max-width:600px;
     text-align:left;
 }
+/* ABA Hover Role Text */
+
+.aba-role{
+    font-size:0.9rem;
+    color:#07559A;
+    font-weight:500;
+    opacity:0;
+    transform:translateY(8px);
+    transition:0.4s ease;
+}
+
+.card:hover .aba-role{
+    opacity:1;
+    transform:translateY(0);
+}
 
 /* SERVICES */
 
@@ -376,15 +391,18 @@ footer{
                 Our mission is to empower businesses with scalable, secure, and 
                 innovative technology platforms.
             </p>
+            <a href="about.html" class="btn" style="margin-top:20px; display:inline-block;">
+    Know More
+</a>
         </div>
     </div>
 </section>
         <!-- ABA -->      
-<section id="aba">
+<section class="associates" id="aba">
     <h2>Aindus Business Associates</h2>
 
     <div class="about-container">
-        <div class="about-text" style="max-width:900px; text-align:center;">
+        <div class="about-text" style="max-width:900px; text-align:center; color:white;">
             <p>
                 Aindus Business Associates (ABA) is a strong network of visionary leaders 
                 and strategic partners supporting the growth of Aindus Group. 
@@ -399,22 +417,25 @@ footer{
         <div class="card">
             <img src="p1.jpg" class="aba-img" alt="Sindhu Varma">
             <h3>Sindhu Varma</h3>
+            <p class="aba-role">CEO</p>
         </div>
 
         <div class="card">
             <img src="p2.jpg" class="aba-img" alt="Nithin">
             <h3>Rahul chowdhari</h3>
+            <p class="aba-role">Director</p>
         </div>
 
         <div class="card">
             <img src="p3.jpg" class="aba-img" alt="Raghavendra">
             <h3>Jagadhish Narwal</h3>
+            <p class="aba-role">Manager</p>
         </div>
 
     </div>
 </section>
 
-<section id="services">
+<section id="services" style="background-color:#caf0f8";>
     <h2>Our Managed Platforms</h2>
     <div class="service-cards">
 
@@ -455,11 +476,12 @@ footer{
 </section>
 
 <footer>
-    © 2024.All rights reserved by Aindus Group
+    © 2026 Aindus Group. All Rights Reserved.
 </footer>
 
 </body>
 </html>
+
 
 
 
